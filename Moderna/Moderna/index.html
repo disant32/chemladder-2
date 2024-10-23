@@ -26,7 +26,25 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+ <style>
+  .fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
 
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+ </style>
   <!-- =======================================================
   * Template Name: Moderna
   * Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
@@ -51,11 +69,12 @@
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="explore.html">Explore</a></li>
-          <li><a href="visualizing3d.html">Visualizing Chem3D</a></li>         
+          <li><a href="visualizing3d.html">Visualizing Chemistry</a></li>         
           <li><a href="tutorial.html">Tutorial</a></li>    
           <li><a href="news.html">News</a></li>           
           <li><a href="resource.html">Resources</a></li>          
           <li><a href="contact.html">Contact</a></li>
+          <li><a href="team.html">Team</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -67,7 +86,11 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-
+      <!-- <div class="fullscreen-bg">
+        <video loop muted autoplay class="fullscreen-bg_video">
+             <source src="../Moderna/assets/img/istockphoto-484013593-640_adpp_is.mp4" type="video/mp4">
+        </video>
+   </div> -->
       <!-- <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in"> -->
 
       <div id="hero-carousel" class="carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
@@ -77,36 +100,37 @@
           <div class="carousel-item active">
             <div class="carousel-container">
               <h2>Welcome to the Fascinating Realm of Computational and Theoretical Chemistry!</h2>
-              <p>Chemistry isn't just about beakers and test tubes; it's the key that unravels the mysteries of matter and its transformations. Within this vast field, Computational and Theoretical Chemistry stand out as pivotal disciplines that leverage mathematical models and computer simulations to understand chemical phenomena.</p>
+              <h4 style="font-family: 95% arial, helvetica, sans-serif;">Chemistry isn't just about beakers and test tubes; it's the key that unravels the mysteries of matter and its transformations. Within this vast field, Computational and Theoretical Chemistry stand out as pivotal disciplines that leverage mathematical models and computer simulations to understand chemical phenomena.</h4>
+            <br>
               <a href="#about" class="btn-get-started">Read More</a>
             </div>
           </div><!-- End Carousel Item -->
 
-          <div class="carousel-item">
+          <!-- <div class="carousel-item">
             <div class="carousel-container">
               <h2>Importance of Computational and Theoretical Chemistry</h2>
               <p>This field plays a critical role in modern science, enabling us to design new materials, innovate drug discovery, and explore complex molecular interactions. As we like to say, 'In silico is the new in vitro!' This site is your gateway to understanding how computational tools revolutionize chemistry.</p>
               <a href="#about" class="btn-get-started">Read More</a>
             </div>
-          </div><!-- End Carousel Item -->
+          </div> -->
 
-          <div class="carousel-item">
+          <!-- <div class="carousel-item">
             <div class="carousel-container">
               <h2>Purpose of This Website</h2>
               <p>Dive in and discover a wealth of resources tailored for students, educators, and professionals. Our mission is to illuminate the path of discovery in computational and theoretical chemistry, combining education with innovation.</p>
               <a href="#about" class="btn-get-started">Read More</a>
             </div>
-          </div><!-- End Carousel Item -->
+          </div> -->
 
-          <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+          <!-- <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
           </a>
 
           <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
             <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-          </a>
-
-          <ol class="carousel-indicators"></ol>
+          </a> -->
+<!-- 
+          <ol class="carousel-indicators"></ol> -->
 
         </div>
 
@@ -122,110 +146,64 @@
 
       <div class="container">
 
-        <div class="row gy-4">
-         
+        <div class="row gy-4">         
           <div class="col-lg-12 content" data-aos="fade-up" data-aos-delay="200">
-            <h3>Overview of Computational and Theoretical Chemistry</h3>
-            <p class="fst-italic">
-              What Are They?
-            </p>
-            <h3>Theoretical Chemistry</h3>
+            <h2 style="font-family: Arial, Helvetica, sans-serif;font-weight: bold;">What we Offer</h2>
+            <h6 style="text-wrap:pretty;">Dive in and discover a wealth of resources tailored for students, educators, and professionals. Our mission is to illuminate the path of discovery in computational and theoretical chemistry, combining education with innovation.</h6>
+            <br>
+            <h2 style="font-family: Arial, Helvetica, sans-serif;font-weight: bold;">Why Computational and Theoretical Chemistry?</h2>
+            <h6 style="text-wrap:pretty;">Chemistry isn't just about beakers and test tubes; it's the key that unravels the mysteries of matter and its transformations. Within this vast field, Computational and Theoretical Chemistry stand out as pivotal disciplines that leverage mathematical models and computer simulations to understand chemical phenomena.</h5>
+           
+          
+          </div>
+          <!-- <h3> What Are They?</h3>            -->
+            <!-- <h3>Theoretical Chemistry</h3>
             <p class="fst-italic">
               Theoretical chemistry crafts the blueprints of molecular behaviour, using the laws of quantum mechanics and statistical mechanics. As Albert Einstein said, 'Imagination is more important than knowledge.' This field thrives on imagination, formulating models that explain the mysteries of chemical interactions. Its where abstract ideas take shape, offering insights into the fundamental laws that govern chemical reactions.
             </p>
             <h3>Computational Chemistry</h3>
             <p class="fst-italic">
               Computational chemistry is where theory meets technology. It employs powerful simulations to analyse the complex chemical systems, turning abstract concepts into tangible insights. Think of it as a molecular crystal ball, revealing the future of chemical reactions.
-            </p>            
+            </p>             -->
           </div>
         </div>
-
+     
       </div>
 
     </section><!-- /About Section -->
 
     <!-- Features Section -->
-    <!-- <section id="features" class="features section">
+    <section id="features" class="features section">
 
     
-        <h2>Features</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div>
+      <h2 style="text-align: center;font-weight: bold;"><a href="#features"  class="btn-get-started">What Are They?</a></h2>
+      
 
       <div class="container">
 
-        <div class="row gy-4 align-items-center features-item">
-          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <img src="assets/img/features-1.svg" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="bi bi-check"></i><span> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check"></i> <span>Ullam est qui quos consequatur eos accusamus.</span></li>
-            </ul>
-          </div>
-        </div>
 
         <div class="row gy-4 align-items-center features-item">
           <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
             <img src="assets/img/features-2.svg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
-            <h3>Corporis temporibus maiores provident</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
+            <h2 style="font-family: Arial, Helvetica, sans-serif;font-weight: bold;">Theoretical Chemistry</h2>
+            
+             <h6 style="text-decoration-color:black;text-wrap:pretty;">Theoretical chemistry crafts the blueprints of molecular behaviour, using the laws of quantum mechanics and statistical mechanics. As Albert Einstein said, 'Imagination is more important than knowledge.' This field thrives on imagination, formulating models that explain the mysteries of chemical interactions. Its where abstract ideas take shape, offering insights into the fundamental laws that govern chemical reactions.
+            </h6>  
+            <h2 style="font-family: Arial, Helvetica, sans-serif;font-weight: bold;">Computational Chemistry
+            </h2>
+            <h6 style="text-decoration-color:black;text-wrap:pretty;">Computational chemistry is where theory meets technology. It employs powerful simulations to analyse the complex chemical systems, turning abstract concepts into tangible insights. Think of it as a molecular crystal ball, revealing the future of chemical reactions</h6>
+            
           </div>
         </div>
 
-        <div class="row gy-4 align-items-center features-item">
-          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
-            <img src="assets/img/features-3.svg" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7" data-aos="fade-up">
-            <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
-            <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
-            <ul>
-              <li><i class="bi bi-check"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check"></i><span> Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check"></i> <span>Facilis ut et voluptatem aperiam. Autem soluta ad fugiat</span>.</li>
-            </ul>
-          </div>
-        </div>
 
-        <div class="row gy-4 align-items-center features-item">
-          <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out">
-            <img src="assets/img/features-4.svg" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
-            <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
-          </div>
-        </div>
+        
 
       </div>
 
-    </section>/Features Section -->
+    </section>
 
   </main>
 

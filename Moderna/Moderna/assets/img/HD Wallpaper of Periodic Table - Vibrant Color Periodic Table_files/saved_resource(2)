@@ -1,0 +1,43 @@
+
+var ftGUID_7970611="61395F92EBAB80";
+var ftConfID_7970611="0";
+var ftParams_7970611="ftOBA=1&ft_agentEnv=0&ft_referrer=https://sciencenotes.org/hd-wallpaper-periodic-table/;https%3A%2F%2Fsciencenotes.org%2Fhd-wallpaper-periodic-table%2F&us_privacy=${US_PRIVACY}&site_url=https://sciencenotes.org/hd-wallpaper-periodic-table/&pub_id=1&sup_platform=1&cachebuster=259954.63963296506&ft_keyword=DV360CampID:__20931928985__&ft_section=DV360CampID:20931928985&ft_partnerimpid=ABAjH0j756pnNOhtSRnodEnMObXk";
+var ftKeyword_7970611="";
+var ftCustom_7970611="";
+var ftSection_7970611="DV360CampID:20931928985";
+var ftSegment_7970611="";
+var ftSegmentList_7970611=[];
+var ftRuleMatch_7970611="0";
+var ftTimestamp_7970611="1729696425";
+var ftGeoC2_7970611="in";
+var ftGeoState_7970611="gj";
+var ftGeoCity_7970611="keshod";
+var ftISP_7970611="reliance jio infocomm limited";
+var ftSpeed_7970611="mobile";
+var ftConnType_7970611="mobile";
+var ftDMA_7970611="356008";
+var ftLong_7970611="70.25";
+var ftLat_7970611="21.31";
+var ftPostal_7970611="362220";
+var ftTimeZone_7970611="+530";
+var ftMobileCarrier_7970611="jio";
+var ftImp7970611 = {};
+ftImp7970611.privacy = "x";
+ftImp7970611.guidAge = "1";
+ftImp7970611.impID = "A8505346-DAF0-33FA-DAF5-C42C15A06DB7";
+ftImp7970611.duid = "FT:61395F92EBAB80";
+
+ftImp7970611.ft_tpplid = "";
+ftImp7970611.ft_c = {};
+ftImp7970611.gdpr = "";
+ftImp7970611.gdpr_consent = "";
+ftImp7970611.gdpr_pd = "";
+ftImp7970611.oob_consent = "";
+ftImp7970611.gdprStoredConsent = "";
+ftImp7970611.us_privacy = "!!US_PRIVACY!";
+ftImp7970611.gpc = "";
+
+ftImp7970611.jsAppend = "1";
+var ftCreativeId_7970611 = "4600365";
+(function(){var tag=document.getElementById("ft_servedby_7970611")||function(s){return s[s.length-1]}(document.getElementsByTagName("script")),js=document.createElement("script");js.src="https://ajs-assets.ftstatic.com/ftUtils.js";js.id="ftscript_m7970611";js.setAttribute("name","ftscript_m7970611");tag.parentNode.insertBefore(js,tag)})();window.fTChecker=window.fTChecker||function(id){if(!id)return false;id=""+id;if(window.hasOwnProperty("ftUtils")){window["ft"+id]=Object.assign({},window.ftUtils.common);window["ft"+id].getBannerConfig(id)}else(function(id){window.setTimeout(function(){window.fTChecker(id)},50)})(id)};window.fTChecker("7970611");
+
